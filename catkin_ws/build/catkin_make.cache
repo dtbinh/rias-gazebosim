@@ -1,0 +1,2 @@
+gazebo_light_sensor_plugin:nre_simmultihusky
+-DCATKIN_DEVEL_PREFIX=/home/mupasa/Research/ROSMAT/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mupasa/Research/ROSMAT/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node name="rqt_console" pkg="rqt_console" type="rqt_console" output="screen" />
+
+<!-- Gazebo 
+
+<arg name="world_name" default="worlds/empty.world"/> -->
+<include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <arg name="world_name" value="$(find nre_simmultihusky)/worlds/new_world.world"/> 
+  <arg name="paused" value="false"/>
+  <arg name="use_sim_time" value="true"/>
+  <arg name="gui" value="true"/>
+  <arg name="headless" value="false"/>
+  <arg name="debug" value="false"/>
+</include>
+
+<group ns="r1">
+  <include file="$(find nre_simmultihusky)/launch/husky.launch">
+    <arg name="namespace" value="r1" />
+    <arg name="initX" value="0" />
+    <arg name="initY" value="0" />
+    <arg name="initYaw" value="0" />
+  </include>
+</group>
+
+<group ns="r2">
+  <include file="$(find nre_simmultihusky)/launch/husky.launch">
+    <arg name="namespace" value="r2" />
+    <arg name="initX" value="60" />
+    <arg name="initY" value="10" />
+    <arg name="initYaw" value="0" />
+  </include>
+</group>
+
+<group ns="r3">
+  <include file="$(find nre_simmultihusky)/launch/husky.launch">
+    <arg name="namespace" value="r3" />
+    <arg name="initX" value="20" />
+    <arg name="initY" value="70" />
+    <arg name="initYaw" value="0" />
+  </include>
+</group>
+
+</launch>

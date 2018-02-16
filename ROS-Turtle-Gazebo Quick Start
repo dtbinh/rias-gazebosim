@@ -1,0 +1,39 @@
+# Configure the ROS environment variables
+source /opt/ros/indigo/setup.bash
+export ROS_IP=128.46.80.242
+export ROS_MASTER_URI=http://128.46.80.242:11311
+
+# See if it correctly inserted in bash file
+gedit .bashrc
+
+# Installation
+sudo apt-get update
+sudo apt-get install ros-indigo-turtlebot-simulator
+
+# Connect the master on MATLAB
+export ROS_MASTER_URI=http://bo-80-9.dhcp.ecn.purdue.edu:11311
+
+
+# Main Run
+# Run roscore FIRST
+roscore
+
+# Run turtlebot
+roslaunch turtlebot_gazebo turtlebot_world.launch
+
+# Echo inputs and outputs
+rostopic echo /mobile_base/commands/velocity
+rostopic echo /odom
+
+
+
+
+# Move turtlebot
+rostopic pub /mobile_base/commands/velocity geometry_msgs/Twist -r 1000 '[1,1,0]' '[0,0,0]'
+
+# Run Husky
+roslaunch husky_gazebo husky_empty_world.launch
+
+# Move Husky
+rostopic pub /cmd_vel geometry_msgs/Twist -r 100 '[0.5,0,0]' '[0,0,0]'
+
