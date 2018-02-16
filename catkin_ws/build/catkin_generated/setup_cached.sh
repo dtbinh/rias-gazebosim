@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/mupasa/Research/ROSMAT/catkin_ws/build"
+export CMAKE_PREFIX_PATH="/home/mupasa/Research/rias-gazebosim/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/mupasa/Research/rias-gazebosim/catkin_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mupasa/Research/rias-gazebosim/catkin_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/mupasa/Research/rias-gazebosim/catkin_ws/src:$ROS_PACKAGE_PATH"

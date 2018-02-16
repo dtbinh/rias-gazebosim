@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/distanceEstimator.dir/src/distanceEstimator.cpp.o"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/devel/lib/catvehicle/distanceEstimator.pdb"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/devel/lib/catvehicle/distanceEstimator"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/devel/lib/catvehicle/distanceEstimator.pdb"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/devel/lib/catvehicle/distanceEstimator"
 )
 
 # Per-language clean rules from dependency scanning.

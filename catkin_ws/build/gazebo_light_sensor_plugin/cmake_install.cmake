@@ -1,8 +1,8 @@
-# Install script for directory: /home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin
+# Install script for directory: /home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/mupasa/Research/ROSMAT/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/mupasa/Research/rias-gazebosim/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mupasa/Research/ROSMAT/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_plugin.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mupasa/Research/rias-gazebosim/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_plugin.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_light_sensor_plugin/cmake" TYPE FILE FILES
-    "/home/mupasa/Research/ROSMAT/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_pluginConfig.cmake"
-    "/home/mupasa/Research/ROSMAT/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_pluginConfig-version.cmake"
+    "/home/mupasa/Research/rias-gazebosim/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_pluginConfig.cmake"
+    "/home/mupasa/Research/rias-gazebosim/catkin_ws/build/gazebo_light_sensor_plugin/catkin_generated/installspace/gazebo_light_sensor_pluginConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_light_sensor_plugin" TYPE FILE FILES "/home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_light_sensor_plugin" TYPE FILE FILES "/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

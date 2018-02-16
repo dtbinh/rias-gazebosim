@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mupasa/Research/ROSMAT/catcar_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/mupasa/Research/ROSMAT/catcar_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mupasa/Research/ROSMAT/catcar_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mupasa/Research/ROSMAT/catcar_ws/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH="/opt/ros/indigo/lib"
+export PKG_CONFIG_PATH="/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/mupasa/Research/rias-gazebosim/catcar_ws/build"
+export PYTHONPATH="/opt/ros/indigo/lib/python2.7/dist-packages"
+export ROS_PACKAGE_PATH="/home/mupasa/Research/rias-gazebosim/catcar_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"

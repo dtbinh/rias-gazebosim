@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin/src/light_sensor_plugin.cpp
+/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/include/gazebo_light_sensor_plugin/light_sensor_plugin.h
+string
+-
+gazebo/plugins/CameraPlugin.hh
+-
+gazebo_plugins/gazebo_ros_camera_utils.h
+-
+
+/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/src/light_sensor_plugin.cpp
 gazebo/common/Plugin.hh
 -
 ros/ros.h
 -
 gazebo_light_sensor_plugin/light_sensor_plugin.h
-/home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin/src/gazebo_light_sensor_plugin/light_sensor_plugin.h
+/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/src/gazebo_light_sensor_plugin/light_sensor_plugin.h
 gazebo_plugins/gazebo_ros_camera.h
-/home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin/src/gazebo_plugins/gazebo_ros_camera.h
+/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/src/gazebo_plugins/gazebo_ros_camera.h
 string
 -
 gazebo/sensors/Sensor.hh

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;roscpp;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "obstaclestopper"
-PROJECT_SPACE_DIR = "/home/mupasa/Research/ROSMAT/catcar_ws/install"
+PROJECT_SPACE_DIR = "/home/mupasa/Research/rias-gazebosim/catcar_ws/install"
 PROJECT_VERSION = "1.0.0"

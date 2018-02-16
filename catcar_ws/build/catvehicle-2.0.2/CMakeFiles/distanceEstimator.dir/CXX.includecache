@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/src/distanceEstimator.cpp
+/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/src/distanceEstimator.cpp
 ros/ros.h
-/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/src/ros/ros.h
+/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/src/ros/ros.h
 std_msgs/Float32.h
-/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/src/std_msgs/Float32.h
+/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/src/std_msgs/Float32.h
 sensor_msgs/LaserScan.h
-/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/src/sensor_msgs/LaserScan.h
+/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/src/sensor_msgs/LaserScan.h
 cstdio
 -
 cstdlib

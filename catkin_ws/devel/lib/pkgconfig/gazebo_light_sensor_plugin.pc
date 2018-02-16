@@ -1,8 +1,8 @@
-prefix=/home/mupasa/Research/ROSMAT/catkin_ws/devel
+prefix=/home/mupasa/Research/rias-gazebosim/catkin_ws/devel
 
 Name: gazebo_light_sensor_plugin
 Description: Description of gazebo_light_sensor_plugin
 Version: 0.0.0
-Cflags: -I/home/mupasa/Research/ROSMAT/catkin_ws/src/gazebo_light_sensor_plugin/include
-Libs: -L/home/mupasa/Research/ROSMAT/catkin_ws/devel/lib 
+Cflags: -I/home/mupasa/Research/rias-gazebosim/catkin_ws/src/gazebo_light_sensor_plugin/include
+Libs: -L/home/mupasa/Research/rias-gazebosim/catkin_ws/devel/lib 
 Requires: gazebo_plugins gazebo_ros roscpp

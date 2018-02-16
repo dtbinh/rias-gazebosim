@@ -1,8 +1,8 @@
-prefix=/home/mupasa/Research/ROSMAT/catcar_ws/devel
+prefix=/home/mupasa/Research/rias-gazebosim/catcar_ws/devel
 
 Name: catvehicle
 Description: Description of catvehicle
 Version: 2.0.2
-Cflags: -I/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/include
-Libs: -L/home/mupasa/Research/ROSMAT/catcar_ws/devel/lib -lcatvehicle
+Cflags: -I/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/include
+Libs: -L/home/mupasa/Research/rias-gazebosim/catcar_ws/devel/lib -lcatvehicle
 Requires: geometry_msgs roscpp rospy sensor_msgs std_msgs velodyne_pointcloud tf

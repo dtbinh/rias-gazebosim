@@ -18,8 +18,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/gazebo-2.2"
   "/usr/include/sdformat-1.4"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/include"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/src/catvehicle-2.0.2/include/catvehicle"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/include"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/src/catvehicle-2.0.2/include/catvehicle"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "/usr/include/pcl-1.7"

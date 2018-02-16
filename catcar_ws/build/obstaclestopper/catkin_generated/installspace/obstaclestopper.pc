@@ -1,8 +1,8 @@
-prefix=/home/mupasa/Research/ROSMAT/catcar_ws/install
+prefix=/home/mupasa/Research/rias-gazebosim/catcar_ws/install
 
 Name: obstaclestopper
 Description: Description of obstaclestopper
 Version: 1.0.0
 Cflags: 
-Libs: -L/home/mupasa/Research/ROSMAT/catcar_ws/install/lib 
+Libs: -L/home/mupasa/Research/rias-gazebosim/catcar_ws/install/lib 
 Requires: geometry_msgs roscpp std_msgs

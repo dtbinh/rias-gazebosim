@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/mupasa/Research/ROSMAT/catkin_ws/devel/setup.sh
+    local-name: /home/mupasa/Research/rias-gazebosim/catkin_ws/devel/setup.sh

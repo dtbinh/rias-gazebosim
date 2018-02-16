@@ -1,8 +1,8 @@
-# Install script for directory: /home/mupasa/Research/ROSMAT/catcar_ws/src/obstaclestopper
+# Install script for directory: /home/mupasa/Research/rias-gazebosim/catcar_ws/src/obstaclestopper
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/mupasa/Research/ROSMAT/catcar_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/mupasa/Research/rias-gazebosim/catcar_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mupasa/Research/ROSMAT/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopper.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mupasa/Research/rias-gazebosim/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopper.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstaclestopper/cmake" TYPE FILE FILES
-    "/home/mupasa/Research/ROSMAT/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopperConfig.cmake"
-    "/home/mupasa/Research/ROSMAT/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopperConfig-version.cmake"
+    "/home/mupasa/Research/rias-gazebosim/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopperConfig.cmake"
+    "/home/mupasa/Research/rias-gazebosim/catcar_ws/build/obstaclestopper/catkin_generated/installspace/obstaclestopperConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstaclestopper" TYPE FILE FILES "/home/mupasa/Research/ROSMAT/catcar_ws/src/obstaclestopper/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/obstaclestopper" TYPE FILE FILES "/home/mupasa/Research/rias-gazebosim/catcar_ws/src/obstaclestopper/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

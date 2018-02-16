@@ -6,8 +6,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/obstaclestopper_node.dir/slros_busmsg_conversion.cpp.o"
   "CMakeFiles/obstaclestopper_node.dir/slros_initialize.cpp.o"
   "CMakeFiles/obstaclestopper_node.dir/slros_generic_param.cpp.o"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/devel/lib/obstaclestopper/obstaclestopper_node.pdb"
-  "/home/mupasa/Research/ROSMAT/catcar_ws/devel/lib/obstaclestopper/obstaclestopper_node"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/devel/lib/obstaclestopper/obstaclestopper_node.pdb"
+  "/home/mupasa/Research/rias-gazebosim/catcar_ws/devel/lib/obstaclestopper/obstaclestopper_node"
 )
 
 # Per-language clean rules from dependency scanning.
